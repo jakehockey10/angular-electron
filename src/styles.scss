@@ -1,7 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/clarity-icons/clarity-icons.min.css";
+@import "../node_modules/clarity-ui/clarity-ui.min.css";
+
 html, body {
   margin: 0;
   padding: 0;
 
   height: 100%;
+}
+
+clr-header.header {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+clr-dropdown,
+form,
+button.header-hamburger-trigger,
+button.header-overflow-trigger,
+a {
+    -webkit-app-region: no-drag;
 }

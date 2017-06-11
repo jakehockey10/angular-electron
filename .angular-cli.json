@@ -23,6 +23,7 @@
         "styles.scss"
       ],
       "scripts": [
+        "../node_modules/clarity-icons/clarity-icons.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -54,7 +55,6 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {
-    }
+    "component": {}
   }
 }
